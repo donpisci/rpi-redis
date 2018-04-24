@@ -1,5 +1,5 @@
 # Pull base image
-FROM resin/rpi-raspbian:wheezy
+FROM resin/rpi-raspbian:jessie
 MAINTAINER Govinda Fichtner <govinda@hypriot.com>, updated by John Episcopo <j.episcopo@sky.com>
 
 # add our user and group first to make sure their IDs get assigned consistently, regardless of whatever dependencies get added
